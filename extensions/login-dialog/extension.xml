@@ -2,7 +2,8 @@
 <extension>
 	<name>Login Dialog</name>
 	<description>
-		Open a dialog to login instead of
+		Open a dialog to login instead of going to the login page.
 	</description>
 	<javascript>login-dialog.js</javascript>
+	<require>common</require>
 </extension>

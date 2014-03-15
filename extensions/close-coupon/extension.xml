@@ -5,4 +5,5 @@
 		This will automatically close the 'First time customer coupon' dialog.
 	</description>
 	<javascript>close-it.js</javascript>
+	<require>common</require>
 </extension>

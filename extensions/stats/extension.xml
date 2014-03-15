@@ -7,4 +7,5 @@
 	<stylesheet>stats.css</stylesheet>
 	<javascript>data.js</javascript>
 	<javascript>stats.js</javascript>
+	<require>common</require>
 </extension>

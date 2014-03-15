@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension>
 	<name>Extension Skeleton</name>
+	<version>1.0</version>
+	<category>educational</category>
 	<description>
 		<![CDATA[
 		Give your extension a name via the <name> tag.
 
 		Describe you extention here in the <description> tag.
 
-		Multiple <stylesheet> and <javascript> tags can be used, and only one is
+		Multiple <stylesheet> and <javascript> tags can be used, but only one is
 		required.  Place your CSS and Javascript files in the same folder as this
 		extension.
+
+		Use the <require> tags when your extension depends on functions from
+		another extension.
 		]]>
 	</description>
 	<stylesheet>style.css</stylesheet>
 	<javascript>script.js</javascript>
+	<require>common</require>
 </extension>
